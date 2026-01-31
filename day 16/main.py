@@ -1,0 +1,26 @@
+# from turtle import Turtle , Screen
+# T = Turtle()
+# T.shape("turtle")
+# T.color("green","cyan")
+# T.forward(200)
+# T.right(90)
+# T.forward(200)
+# T.right(90)
+# T.forward(200)
+# T.right(90)
+# T.forward(200)
+# T.right(45)
+# T.forward(100)
+# T.right(270)
+# T.forward(100)
+# T.right(180)
+# T.forward(300)
+# N = Screen()
+# N.exitonclick()
+#$ 2
+from prettytable import PrettyTable
+table = PrettyTable()
+table.field_names = ["N", "T"]
+table.add_row([400 , 800])
+table.align = "l"
+print(table)
