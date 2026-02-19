@@ -283,5 +283,5 @@ def calculator() :
             should_continue = False
             calculator()
 calculator()
-$
+
 '''16'''
